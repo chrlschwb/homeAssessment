@@ -17,12 +17,16 @@ class App extends Component {
 				indexLabel: "{label}: {y}%",		
 				startAngle: -90,
 				dataPoints: [
-					{ y: 20, label: "Airfare" },
-					{ y: 24, label: "Food & Drinks" },
-					{ y: 20, label: "Accomodation" },
-					{ y: 14, label: "Transportation" },
-					{ y: 12, label: "Activities" },
-					{ y: 10, label: "Misc" }	
+					{ y: 10, label: "one" },
+					{ y: 12, label: "two" },
+					{ y: 10, label: "three" },
+					{ y: 7, label: "four" },
+					{ y: 6, label: "five" },
+					{ y: 5, label: "six" },
+					{ y: 8, label: "seven" },
+					{ y: 9, label: "eight" },
+					{ y: 9, label: "nine" },
+					{ y: 2, label: "ten" }	
 				]
 			}]
 		}
