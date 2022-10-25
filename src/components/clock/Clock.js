@@ -18,17 +18,20 @@ function Clock() {
     thirdCircleColor: `white`,
     fourthCircleColor: `black`,
     centerDotColor: `black`,
-    width: 300,
-    numberSize: 150,
-    // iana: `Europe/Dublin`,
+    // width: 300,
+    numberSize: 150
   }
 
   
   return (
-    <>
-      <div >
-      <AnalogClock characteristics={style} />
-      </div>
+    <> 
+      <AnalogClock characteristics={style}  
+        style={{
+          position: 'fixed',
+          left: '0',
+          top: '0'
+        }}
+      /> 
     </>
   );
 }
